@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   depchecktest:
-    runs-on: ubuntu-latest
+    runs-on: Raji
     name: depecheck_test
     steps:
       - name: Checkout
